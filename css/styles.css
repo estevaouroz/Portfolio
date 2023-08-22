@@ -1,0 +1,214 @@
+html, body {
+	margin: 0;
+	padding:0;
+	
+
+}
+
+
+body{
+	background-color: #2B2B2B;
+	color:white;
+	font-family: 'Lato', sans-serif;
+
+}
+.navigation {
+	background-color: 
+	color: white;
+	height: 50px;
+
+}
+
+.navigation ul {
+	margin-top: 0px;
+	list-style: none;
+	padding-left: 0px;
+	text-align: right;
+	height: 50px;
+	
+
+}
+
+.navigation li {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 50px;
+	font-size: 16px;
+
+
+	
+}
+
+.navigation a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.navigation a:hover {
+	color: #f27609;
+	display: block;
+
+}
+
+.navigation li.threeline-icon {
+	display: none;
+
+
+
+}
+.capa {
+	color: white;
+
+}
+
+.capa span {
+	color: orangered;
+	display: block;
+}
+
+.capa div {
+	display: inline-block;
+	height: 1000px;
+
+}
+
+.profile-pic {
+	width: 40%;
+	text-align: center;
+}
+
+.profile-pic img{
+	width: 350px;
+	border-radius: 350px;
+	margin-top: 100px;
+
+}
+
+.profile-title {
+	text-transform: uppercase;
+	vertical-align: top;
+	width:59%;
+
+}
+
+.profile-title h1 {
+	font-size: 58px;
+	margin-top: 200px;
+
+}
+
+.profile-title h2 {
+	font-size: 16px;
+}
+
+.main {
+	padding: 80px 180px 80px 100px;
+	
+}
+
+.cv-pic {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	
+
+
+}
+
+.main  h1 {
+	color: white;
+	font-weight: normal;
+
+}
+
+.main h2 {
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: 40px;
+}
+
+.main h3 {
+	color: orange;
+	font-size: 12px;
+	text-transform: uppercase;
+
+}
+
+.main p {
+	color: white;
+	font-size: 18px;
+	font-weight: 100px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.caminho {
+	list-style: none;
+	padding-left: 0;
+	color: grey;
+}
+
+.caminho li {
+	display: inline-block;
+}
+
+.social-img {
+	width: 50px;
+	margin-right: 10px;
+}
+
+.miniatura {
+	width: 320px;
+	height: 320px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background-size: contain;
+	overflow: hidden;
+
+
+}
+
+.miniatura a {
+	text-decoration: none;
+
+}
+.blackbox {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0;
+	padding-top: 120px;
+
+}
+
+.blackbox:hover {
+	opacity: 0.8;
+
+}
+
+.blackbox-text {
+	text-align: center;
+}
+
+
+.blackbox-text h1 {
+	font-size: 16px;
+	color: orange;
+	text-transform: uppercase;
+	margin-top: 0;
+	font-weight: 200px;
+
+}
+
+.blackbox-text h2 {
+	text-transform: none;
+	font-weight: 100;
+	margin-top: 0;	
+}

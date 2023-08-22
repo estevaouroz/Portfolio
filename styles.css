@@ -1,110 +1,104 @@
-html, body {
+/* HTML Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
-	padding:0;
-	
-
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 
 body{
 	background-color: #2B2B2B;
 	color:white;
 	font-family: 'Lato', sans-serif;
-
-}
-.navigation {
-	color: white;
-	height: 50px;
-
+	font-weight: bold;
 }
 
-.navigation ul {
-	margin-top: 0px;
-	list-style: none;
-	padding-left: 0px;
-	text-align: right;
-	height: 50px;
-	
-
-}
-
-.navigation li {
-	display: inline-block;
-	padding-left: 30px;
-	padding-right: 30px;
-	line-height: 50px;
-	font-size: 16px;
-
-
-	
-}
-
-.navigation a {
-	color: white;
-	text-decoration: none;
-
-}
-
-.navigation a:hover {
-	color: #f27609;
-	display: block;
-
-}
-
-.navigation li.threeline-icon {
-	display: none;
-
-
-
-}
-.capa {
-	color: white;
-
-}
-
-.capa span {
-	color: orangered;
-	display: block;
-}
-
-.capa div {
-	display: inline-block;
-	height: 1000px;
-
-}
-
-.profile-pic {
-	width: 40%;
+#nav_wrap {
+	height: 10vh;
+	width: 100%;
 	text-align: center;
 }
 
-.profile-pic img{
-	width: 350px;
-	border-radius: 350px;
-	margin-top: 100px;
+#navigation {
+	display: inline-flex;
+	height: 100%;
+	width: 50%;
+	min-width: 330px;
+	text-align: center;
+	font-size: 3.5vh;
+}
 
+#navigation div {
+	margin: auto;
+	width: 25%;
+}
+
+#navigation a {
+	color: white;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #f27609;
+}
+
+.active_nav {
+	background-color: #151515;
+	line-height: 10vh;
+}
+/* ABOVE PROPERTIES ARE THE SAME IN ALL PAGES */
+
+.body_wrap {
+	overflow: hidden;
+	display: inline-flex;
+	width: 100%;
+	height: 90vh;
+}
+
+.body_wrap span {
+	color: orangered;
+}
+
+.profile-pic img {
+	width: 30vw;
+	border-radius: 50%;
+	margin-top: 100px;
+	margin-left: 10vw;
 }
 
 .profile-title {
 	text-transform: uppercase;
-	vertical-align: top;
-	width:59%;
-
+	width:60vw;
+	padding-left: 5%;
 }
 
 .profile-title h1 {
 	font-size: 58px;
 	margin-top: 200px;
-
 }
 
 .profile-title h2 {
 	font-size: 16px;
+	padding-left: 5px;
+	padding-top: 3%;
 }
 
 .main {
 	padding: 80px 180px 80px 100px;
-	
 }
 
 .cv-pic {
@@ -112,10 +106,6 @@ body{
 	width: 300px;
 	margin-right: 20px;
 	margin-bottom: 20px;
-
-	
-
-
 }
 
 .main  h1 {
@@ -170,8 +160,6 @@ body{
 	margin-bottom: 15px;
 	background-size: contain;
 	overflow: hidden;
-
-
 }
 
 .miniatura a {
@@ -210,4 +198,14 @@ body{
 	text-transform: none;
 	font-weight: 100;
 	margin-top: 0;	
+}
+
+#social_media {
+	display: inline-block;
+	padding-top: 8%;
+	width: 100%;
+}
+
+#social_media a {
+	padding-right: 8%;
 }
